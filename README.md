@@ -58,7 +58,7 @@ def runge_kutta_second_order(f, t0, y0, t_end, h):
 
     return t_values, y_values
 # Example usage:
-# Define your function representing the ODE dy/dt = f(t, y)=y - t**2 + 1
+# Define your function representing the ODE dy/dt = f(t, y)=y 
 def f(t, y):
     return y - t*0
 
